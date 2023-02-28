@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex11</title>
+</head>
+<body>
+	<table border="1" width="400" height="300">
+		<tr>
+			<td bgcolor="pink" rowspan="3">일</td>
+			<td bgcolor="yellow" colspan="3">이</td>
+		</tr>
+		<tr>
+			<td bgcolor="white" colspan="2">삼</td>
+			<td bgcolor="#89FF82" rowspan="3">사</td>
+		</tr>
+		<tr>
+			<td bgcolor="orange">오</td>
+			<td bgcolor="skyblue">육</td>
+		</tr>
+		<tr>
+			<td bgcolor="blue" colspan="3">칠</td>
+		</tr>
+					
+	
+	</table>
+</body>
+</html>

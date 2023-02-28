@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex06</title>
+<style type="text/css">
+	#result {
+		width: 250px;
+		height: 100px;
+		background-color: lightgreen;
+	}
+	
+	select {
+		width: 70px;
+	}
+</style>
+
+<script type="text/javascript">
+
+	var f_selarr = new Array('한식','중식','일식','그 외');
+	var s_selarr = new Array();
+	s_selarr = [
+					['김치찌개', '된장찌개', '불고기', '설렁탕', '뼈해장국'],
+					['탕수육', '팔보채', '깐풍기','볶음밥'],
+					['초밥', '덮밥', '문어구이','스시','우동'],
+					['스테이크', '캐비어', '푸아그라', '파스타','월남쌈']
+				];
+				
+				
+	
+	function init() {
+		
+		myform.first.options[0] = new Option("선택"); 
+		myform.second.options[0] = new Option("선택");
+		
+		for(i=0;i<f_selarr.length;i++) {
+			myform.first.options[i+1] = new Option(f_selarr[i]);
+		}
+	}
+	
+	function firstChange() {
+		
+		findex = myform.first.selectedIndex;
+		fvalue = myform.first[findex].value;
+		
+		for(i = myform.second.options.length;i>=0;i--) {
+			myform.second.options[i+1] = null;
+		}
+		
+		for(i=0;i<s_selarr[findex-1].length;i++) {
+			myform.second.options[i+1] = new Option(s_selarr[findex-1][i]);
+		}
+		
+	}
+	
+	function secondChange() {
+		findex = myform.first.selectedIndex;
+		fvalue = myform.first[findex].value;
+		
+		sindex = myform.second.selectedIndex;
+		svalue = myform.second[sindex].value;
+		
+		myArea = document.getElementById("result");
+		myArea.innerHTML = "선택한 상품은 <br> <img src= '" + svalue + "'>";
+	}
+	
+	
+</script>
+</head>
+<body onLoad="init()">
+	<form name="myform">
+		<select id="first" onChange="firstChange()"></select> <select
+			id="second" onChange="secondChange()"></select>
+	</form>
+
+	<div id="result"></div>
+
+</body>
+</html>

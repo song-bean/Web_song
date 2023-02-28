@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex06</title>
+<script type="text/javascript">
+<style type="text/css">
+#result {
+	width: 250px;
+	height: 100px;
+	background-color: lightgreen;
+}
+</style>
+</script>
+</head>
+<body>
+
+</body>
+</html>

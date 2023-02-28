@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex05</title>
+</head>
+<body>
+	<h1>네임앵커 이용하기</h1>
+	<hr>
+	<ul>
+		<li>Toy1</li>
+		<li>Toy2</li>
+		<li>Toy3</li>
+	</ul>
+	<hr>
+	
+</body>
+</html>

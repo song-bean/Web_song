@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Ex10</title>
+<script type="text/javascript">
+	var kor = prompt("국어 점수는?", 77);
+	var eng = prompt("영어 점수는?", 88);
+	var math = prompt("수학 점수는?", 100);
+	
+	document.write("국어 : " + kor + "<br>");
+	document.write("영어 : " + eng + "<br>");
+	document.write("수학 : " + math + "<br>");
+	
+	document.write("<br>");
+	
+	var sum = ((+kor)+(+eng)+(+math));
+	
+	document.write("합계 : " + sum + "<br>");
+	document.write("평균 : " + (sum/3).tofixed(2) + "<br>");
+	document.write("평균 : " + Math.round(sum/3) + "<br>");
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

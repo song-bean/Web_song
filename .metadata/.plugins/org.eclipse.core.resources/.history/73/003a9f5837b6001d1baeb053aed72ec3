@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex05</title>
+<script type="text/javascript">
+	function name() {
+		
+	}
+</script>
+</head>
+<body>
+	이름과 나이를 입력하세요.<br>
+	<form action="" method="">
+		<input type="button" value="버튼" onClick="name()">
+	</form>
+</body>
+</html>

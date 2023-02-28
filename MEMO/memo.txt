@@ -1,0 +1,2 @@
+외부 브라우저 설정
+	preferences - web browser에서 추가

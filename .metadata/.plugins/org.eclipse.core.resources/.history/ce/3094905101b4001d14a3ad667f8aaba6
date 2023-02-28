@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex05</title>
+<script type="text/javascript">
+	//자바의 메서드와 비슷 --> 자바스크립트 함수
+	function winter(p){ //var 쓰면 안됨
+		if(p == true){
+			alert("겨울은 추운 계절입니다.");		
+		}
+	}
+</script>
+</head>
+<body>
+	<h2>겨울은 추운 계절인가요?</h2>
+	<form action="" method="">
+		<input type="button" value="예" onClick="winter(true)">
+		<input type="button" value="아니오" onClick="winter(false)">
+		
+	</form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex11</title>
+<script type="text/javascript">
+	var favorite = prompt("어느 계절을 좋아하세요?(1:봄,2:여름,3:가을,4:겨울)")
+</script>
+</head>
+<body>
+
+</body>
+</html>

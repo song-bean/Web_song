@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex05</title>
+<style type="text/css">
+	#result{
+		width : 250px;
+		height : 100px;
+		background-color: lightgreen; 
+	}
+</style>
+<style type="text/css">
+	select{
+		width:70px; 
+	}
+</style>
+<script type="text/javascript">
+
+	var f_selarr = new Array('한식','중식','일식','그 외');
+	var s_selarr = new Array();
+	s_selarr[0] = new Array('김치찌개', '된장찌개', '불고기', '설렁탕', '뼈해장국'); //한식
+	s_selarr[1] = new Array('탕수육', '팔보채', '깐풍기','볶음밥'); //중식
+	s_selarr[2] = new Array('초밥', '덮밥', '문어구이','스시','우동'); //일식
+	s_selarr[3] = new Array('스테이크', '캐비어', '푸아그라', '파스타','월남쌈'); //그 외
+	
+	/* s_selarr = [
+					['김치찌개', '된장찌개', '불고기', '설렁탕', '뼈해장국'],
+					['탕수육', '팔보채', '깐풍기','볶음밥'],
+					['초밥', '덮밥', '문어구이','스시','우동'],
+					['스테이크', '캐비어', '푸아그라', '파스타','월남쌈']
+				]; */
+				
+				
+	
+	function init() {
+		//alert('init');
+		/* myform.first.options[0] = new Option("한식");
+		myform.first.options[1] = new Option("중식");
+		myform.first.options[2] = new Option("일식");
+		myform.first.options[3] = new Option("그 외"); */
+		
+		/* for(x in f_selarr) {
+			myform.first.options[x] = new Option(f_selarr[x]);
+		} */
+		myform.first.options[0] = new Option("선택"); //text, value를 써야하는데 하나만 쓰면 둘이 같다는 말
+		
+		for(i=0;i<f_selarr.length;i++) {
+			myform.first.options[i+1] = new Option(f_selarr[i]);
+		}
+	}
+	
+	function firstChange() {
+		//alert('firstChange()');
+		
+		findex = myform.first.selectedIndex;
+		fvalue = myform.first[findex].value;
+	}
+	
+	function secondChange() {
+		alert('secondChange()');
+	}
+	
+	
+</script>
+</head>
+<body onLoad = "init()">
+	<form name = "myform">
+		<!-- <select id="first" style = "width:70px;"></select>
+		<select id="second" style = "width:70px;"></select> -->
+		<select id="first" onChange="firstChange()"></select>
+			
+		<select id="second" onChange="secondChange()"></select>
+	</form>
+	<!-- <select>
+		<option value="한식">한식</option>
+		<option value="양식">양식
+		<option value="일식">일식
+		<option value="중식">중식		
+	</select> -->
+	
+	<div id="result">
+		
+	</div>
+	
+</body>
+</html>

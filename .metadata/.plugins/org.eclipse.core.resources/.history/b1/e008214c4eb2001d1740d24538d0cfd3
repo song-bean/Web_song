@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex02 예제</title>
+</head>
+<body>
+	<h1>img 요소로 이미지 삽입하기</h1>
+	<hr>
+	<div>
+		<img src="car0.jpg" width="400" height="350"
+		title="흰색 클래식 자동차"><!-- </img> -->
+	</div>
+</body>
+</html>

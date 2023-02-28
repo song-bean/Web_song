@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex09</title>
+<script type="text/javascript">
+	var str = "태양처럼 뜨거운, 바람처럼 자유로운 영혼";
+	document.write(str + "<br>");
+	document.write(str.toString() + "<br>");
+	document.write(str.length + "<br>");
+	
+	ch = str.charAt(5);
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

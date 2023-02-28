@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex03</title>
+	<script type="text/javascript">
+		var myName = prompt("이름을 입력하세요");
+		
+		
+		/* 
+		prompt : 
+			확인버튼 : 입력한 값이 변수에 들어감, 아무것도 입력 안하고 확인을 누르면 아무것도 없는 상태(null이 아님)
+			취소버튼 : 변수에 null이 들어감 
+		*/
+		if(myName == "") {
+			document.write("이름 누락");
+		}
+		else if(myName != null){
+			document.write("myName : " + myName + "입니다.<br>");
+		}
+		else{
+			
+		}
+		
+	</script>
+</head>
+<body>
+
+</body>
+</html>

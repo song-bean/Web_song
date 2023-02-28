@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex05</title>
+<script type="text/javascript">
+	function nameAge(){
+		var nameage = prompt("이름과 나이를 입력하세요.");
+		document.write(name);
+	}
+</script>
+</head>
+<body>
+	이름과 나이를 입력하세요.<br>
+	<form>
+		<input type="button" value="입력" onClick="name()">
+	</form>
+</body>
+</html>

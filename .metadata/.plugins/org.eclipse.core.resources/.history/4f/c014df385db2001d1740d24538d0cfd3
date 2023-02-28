@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex07</title>
+</head>
+<body>
+	<ul>
+		<li><a href="">Home</a><li>
+		<li><a href="">다음</a><li>
+		<li><a href=""></a><li>
+	</ul>
+</body>
+</html>

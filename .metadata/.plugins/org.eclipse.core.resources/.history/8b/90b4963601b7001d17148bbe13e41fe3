@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex07</title>
+<script type="text/javascript">
+	var now = new Date();
+	document.write("now1 : " + now + "<br>")
+</script>
+</head>
+<body>
+
+</body>
+</html>

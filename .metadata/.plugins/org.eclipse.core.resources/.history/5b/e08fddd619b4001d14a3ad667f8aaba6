@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Ex10</title>
+<script type="text/javascript">
+	var kor = prompt("국어 점수는?", 77);
+	var eng = prompt("영어 점수는?", 88);
+	var math = prompt("수학 점수는?", 100);
+	
+	document.write("국어 : " + kor + "<br>");
+	document.write("영어 : " + eng + "<br>");
+	document.write("수학 : " + math + "<br>");
+	
+	document.write("<br>");
+	
+	var sum = ((+kor)+(+eng)+(+math));
+	var avg = sum/3;
+	
+	document.write("합계 : " + sum + "<br>");
+	document.write("평균(소수점 둘째자리까지) : " + avg.toFixed(2) + "<br>");
+	document.write("평균(소수점 반올림) : " + Math.round(avg) + "<br>");
+	
+	document.write("<br>");
+	
+	document.write("학점(if) : ");
+	if(avg >= 90) {
+		document.write("A학점");
+	}
+	else if(avg<90 && avg>=80) {
+		document.write("B학점");
+	}
+	else if(avg<80 && avg>=70) {
+		document.write("C학점");
+	}
+	else if(avg<70 && avg>=60) {
+		document.write("D학점");
+	}
+	else  {
+		document.write("F학점");
+	}
+	
+	document.write("<br>");
+	
+	switch(avg/10) {
+	
+	case 9 : 
+		document.write("A학점");
+	}
+	
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

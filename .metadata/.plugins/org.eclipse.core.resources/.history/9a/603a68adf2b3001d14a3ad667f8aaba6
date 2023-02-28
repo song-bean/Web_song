@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex03</title>
+	<script type="text/javascript">
+		var myName = prompt("이름을 입력하세요");
+	</script>
+</head>
+<body>
+
+</body>
+</html>

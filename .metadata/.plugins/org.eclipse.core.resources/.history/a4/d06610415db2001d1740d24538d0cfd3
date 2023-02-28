@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex07</title>
+</head>
+<body>
+	<ul>
+		<li><a href="">자동차</a><li>
+		<li><a href="">다음</a><li>
+		<li><a href="">쌍용</a><li>
+	</ul>
+</body>
+</html>

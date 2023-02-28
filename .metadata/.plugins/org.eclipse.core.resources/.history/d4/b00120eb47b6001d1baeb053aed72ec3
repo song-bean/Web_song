@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex02</title>
+<style type="text/css">
+	table {
+		width : 50%;
+		height: 50%;
+	}
+	td{
+		width : 10px;
+		height : 10px;  
+		text-align: center; 
+		
+	}
+</style>
+<script type="text/javascript">
+	var title = new Array('라벤더','레몬밤','허브','카모마일','바질', '없음');
+	//var title = ['라벤더','레몬밤','허브','카모마일','바질'];
+	/* var title = new Array();
+	title[0] = '라벤더';
+	title[1] = '레몬밤';
+	title[2] = '허브';
+	title[3] = '카모마일';
+	title[4] = '바질'; */
+	
+	var flower = new Array();
+	flower[0] = "../images/lavender.jpg";
+	flower[1] = "../images/lemonbalm.jpg";
+	flower[2] = "../images/herb.jpg";
+	flower[3] = "../images/camomile.jpg";
+	flower[4] = "../images/basil.jpg";
+	flower[5] = "없음";
+	
+	var tstr = "<table border = '1'>";
+	
+	for(i=0;i<2;i++) {
+		tstr += "<tr>";
+		for(j=0;j<3;j++) {
+			tstr += "<td>" +  + "</td>"
+		}
+		tstr += "</tr>"
+	}//for
+	
+	tstr += "</table>";
+	
+	document.write(tstr);
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex03</title>
+</head>
+<body>
+	<h1>audio 요소를 이용한 사운드 삽입하기</h1>
+	<!-- <audio src="media/music.ogg"> -->
+	<audio>
+		<source src="media/music.ogg"> <!-- FireFox, Opera -->
+		<source src="media/music.mp3"> 인터넷익스플로러, Safari, Chrome
+	</audio>
+</body>
+</html>

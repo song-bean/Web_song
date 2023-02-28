@@ -1,0 +1,13 @@
+INDEX VERSION 1.4+/Users/songnayoung/Web_song/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+531080036.index
+3931270071.index
+1327916420.index
+4182006004.index
+2547666078.index
+861471176.index
+958983498.index
+3703194086.index
+3430601614.index
+3430601614.index
+70006457.index
+3133294147.index

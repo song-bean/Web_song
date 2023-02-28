@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex03</title>
+<script type="text/javascript">
+	var a = new Array("kim", 'lee');
+	var b = ['park', 'choi','hong'];
+	
+	var c = a.concat(b);
+	document.write(c.length + "<br>");
+	for( str in c ) {
+		document.write(c[str] + " ");
+	}
+	
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

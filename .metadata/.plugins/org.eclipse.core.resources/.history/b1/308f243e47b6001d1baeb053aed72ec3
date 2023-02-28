@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex02</title>
+<style type="text/css">
+	td{
+		width : 10px;
+		height : 10px;  
+		text-align: center; 
+	}
+</style>
+<script type="text/javascript">
+	var title = new Array('라벤더','레몬밤','허브','카모마일','바질', '없음');
+	//var title = ['라벤더','레몬밤','허브','카모마일','바질'];
+	/* var title = new Array();
+	title[0] = '라벤더';
+	title[1] = '레몬밤';
+	title[2] = '허브';
+	title[3] = '카모마일';
+	title[4] = '바질'; */
+	
+	var flower = new Array();
+	flower[0] = "../images/lavender.jpg";
+	flower[1] = "../images/lemonbalm.jpg";
+	flower[2] = "../images/herb.jpg";
+	flower[3] = "../images/camomile.jpg";
+	flower[4] = "../images/basil.jpg";
+	flower[5] = "없음";
+	
+	document.write("<table border='1'>");
+	document.write("<tr>");
+	for(i=0;i<3;i++) {
+		document.write("<th>" + title[i] + "</th>");
+	}
+	document.write("</tr>");
+	
+	document.write("<tr>");
+	for (j = 0; j < 3; j++) {
+		document.write(" <td> <img src = ' " + flower[j] + " ' ></td> ");
+	}
+	document.write("</tr>");
+	
+	document.write("<tr>");
+	for(i=3;i<6;i++) {
+		document.write("<th>" + title[i] + "</th>");
+	}
+	document.write("</tr>");
+	
+	document.write("<tr>");
+	for (j = 3; j < 6; j++) {
+		if(flower[j] != "없음"){
+			document.write(" <td> <img src = ' " + flower[j] + " ' ></td> ");
+		}
+		else {
+			document.write("<td>없음</td>");
+		}
+	}
+	document.write("</tr>");
+
+	document.write("</table>");
+</script>
+</head>
+<body>
+
+</body>
+</html>

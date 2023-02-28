@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Ex10</title>
+<script type="text/javascript">
+	var kor = prompt("국어 점수는?", 77);
+	var eng = prompt("영어 점수는?", 88);
+	var math = prompt("수학 점수는?", 100);
+	
+	document.write("국어 : " + kor + "<br>");
+	document.write("영어 : " + eng + "<br>");
+	document.write("수학 : " + math + "<br>");
+	
+	document.write("합계 : " + ((+kor)+(+eng)+(+math)) + "<br>");
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

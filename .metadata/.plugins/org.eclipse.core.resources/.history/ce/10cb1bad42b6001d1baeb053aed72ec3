@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex01</title>
+<script type="text/javascript">
+
+	/* 자바 배열
+	int [] arr1 = {10,20,30};
+	int [] arr2 = new int[] {10,20,30};
+	int[] arr3 = new int[3];
+	arr3[0] = 10;
+	arr3[1] = 20;
+	arr[2] = 30; 
+	*/
+	
+	var a = Array(4); //내장 객체, 하나만 쓰면 방의 수
+	document.write(a.length + "<br>");
+	
+	for(i=0;i<a.length;i++) {
+		document.write(a[i] + " ");
+	}
+	document.write("<br>");
+	document.write("-----------------------------------------------------------");
+	document.write("<br>");
+	
+	var b = new Array(10,20,30); //2개 이상 쓰면 방에 들어갈 값이 됨
+	document.write(b.length + "<br>");
+	
+	for(i=0;i<b.length;i++) {
+		document.write(b[i] + " ");
+	}
+	document.write("<br>");
+	document.write("-----------------------------------------------------------");
+	document.write("<br>");
+	
+	var c = Array('one', 'two','three');
+	document.write(c.length + "<br>");
+	
+	for(i=0;i<c.length;i++) {
+		document.write(c[i] + " ");
+	}
+	document.write("<br>");
+	document.write("-----------------------------------------------------------");
+	document.write("<br>");
+	
+	var d = Array();
+	d[0] = 'spring';
+	d[1] = 'summer';
+	d[2] = 'fall';
+	d[3] = 'winter';
+	document.write(d.length + "<br>");
+	
+	for(i=0;i<d.length;i++) {
+		document.write(d[i] + " ");
+	}
+	document.write("<br>");
+	document.write(d); //spring,summer,fall,winter
+	document.write("<br>");
+	document.write(d.toString()); //spring,summer,fall,winter
+	document.write("<br>");
+	document.write("-----------------------------------------------------------");
+	document.write("<br>");
+	
+	var e = ['rose', 'tulip', 'lily']
+	document.write(e.length + "<br>");
+	
+	for(i=0;i<e.length;i++) {
+		document.write(e[i] + " ");
+	}
+	document.write("<br>");
+	document.write("<br> 확장 for문 <br>");
+		
+	for( x in e ) {
+		document.write( x + "/" + e[x] + " , "); // x만 쓰면 방번호가 나옴
+	}
+	
+	document.write("<br>");
+	document.write("-----------------------------------------------------------");
+	document.write("<br>");
+	
+	//같은 자료형을 가지는 집합 =
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

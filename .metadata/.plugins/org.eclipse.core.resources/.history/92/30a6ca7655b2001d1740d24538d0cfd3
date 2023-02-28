@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex04</title>
+</head>
+<body>
+	<h1>하이퍼링크 텍스트 연결하기</h1>
+	<ul>
+		<li>
+			<a href="https://www.sist.co.kr">쌍용교육센터</a>
+		</li>
+		<li>
+			<a href="https://www.sist.co.kr">자동차 갤러리</a>
+		</li>
+		<li>네이버</li>
+	</ul>
+</body>
+</html>

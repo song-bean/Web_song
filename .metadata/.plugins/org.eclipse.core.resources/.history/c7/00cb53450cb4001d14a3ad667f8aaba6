@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex08</title>
+<script type="text/javascript">
+	function bg(pos){
+		//pos = './../images/bg10.gif' -- 배경바꾸기1 
+		//pos = '../images/bg11.gif' -- 배경바꾸기2
+		//alert(1); //잘 넘어왔나 확인해보기
+		
+		var reply = confirm('정말 배경 이미지를 바꾸겠습니까?');
+		
+		if(reply == true) {
+			document.body.style.backgroundImage = "url(" + pos + ")"
+		}
+		else {
+			
+		}
+		
+	}
+</script>
+</head>
+<body onLoad="alert('저의 홈페이지에 오신 것을 환영합니다.')">
+	<form>
+		<input type="button" value="버튼" onClick="alert('alert입니다.')">
+		
+		<input type="button" value="배경바꾸기1" onClick="bg('./../images/bg10.gif')"> <!-- ..한단계 올라가라 -->
+		<input type="button" value="배경바꾸기2" onClick="bg('../images/bg11.gif')">  
+	</form>
+</body>
+</html>

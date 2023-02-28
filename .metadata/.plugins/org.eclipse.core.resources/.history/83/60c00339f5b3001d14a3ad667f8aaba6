@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex04</title>
+	<script type="text/javascript">
+		var result = confirm("게임 한판 할까요?");
+	</script>
+</head>
+<body>
+
+</body>
+</html>

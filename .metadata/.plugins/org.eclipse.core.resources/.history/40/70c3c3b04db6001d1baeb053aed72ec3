@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex03</title>
+<script type="text/javascript">
+	var a = new Array("kim", 'lee');
+	var b = ['park', 'choi','hong'];
+	
+	var c = a.concat(b);
+	document.write(c.length + "<br>");
+	for( str in c ) {
+		document.write(c[str] + " ");
+	}
+	document.write("<br>");
+	
+	var cSlice = c.slice(1,3); //1부터 시작해서 3 앞에까지 가지고 와라
+	document.write(cSlice + "<br>");
+	
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

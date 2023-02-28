@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex06</title>
+<script type="text/javascript">
+	var age = 30;
+	document.write("나이1 : " + age + "<br>");
+</script>
+</head>
+<body>
+
+</body>
+</html>

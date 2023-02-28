@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex09</title>
+</head>
+<body >
+	<!-- 두줄 세칸 -->
+	<table border="1" width="400" height="300"
+			align="center" bordercolor="black"
+			bgcolor="pink" cellspacing="0"
+			cellpadding="10"> 
+		<tr bgcolor="#1cdfef"> <!-- 한 줄 -->
+			<td bgcolor="#fecb61">가</td> <!-- 한 칸 --> 
+			<td>나</td>
+			<td>다</td>
+		</tr>
+		
+		<tr>
+			<td>라</td>
+			<td>마</td>
+			<td>바</td>		
+		</tr>
+	</table>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex02 예제</title>
+</head>
+<body>
+	<h1>img 요소로 이미지 삽입하기</h1>
+	<hr>
+	<div>
+	<figure>
+		<figcaption>이미지 제목</figcaption>
+		<img src="images/car1.jpg" width="400" height="350"
+		title="빨간색 클래식 자동차"
+		alt="자동차 박람회 출품된 자동차"> 
+		<!-- alt는 이미지가 나올 수 없을 때 대신 나오는 문자열 -->
+	</figure>
+		<figcaption>car2</figcaption>
+		
+	</div>
+</body>
+</html>
+<!-- webapp-Ex02.html
+webapp-images-car1.jpg
+. : 현재위치(webapp) -->

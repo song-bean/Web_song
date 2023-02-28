@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex06</title>
+<style type="text/css">
+	#result {
+		width: 250px;
+		height: 100px;
+		background-color: lightgreen;
+	}
+	
+	select {
+	width: 70px;
+	}
+</style>
+
+<script type="text/javascript">
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

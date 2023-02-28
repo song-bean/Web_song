@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex07</title>
+</head>
+<body>
+	<ul>
+		<li><a href="Ex02_img.html" target="" >자동차</a><li>
+		<li><a href="http://www.daum.net" target="">다음</a><li>
+		<li><a href="https://www.sist.co.kr" target="">쌍용</a><li>
+	</ul>
+	
+	<iframe width="80%" height="400" name="mainframe"></iframe>
+</body>
+</html>

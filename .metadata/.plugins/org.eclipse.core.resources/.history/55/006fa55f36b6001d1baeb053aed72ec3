@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex14</title>
+<script type="text/javascript">
+	count = 0;
+	do{
+		var str = prompt("입력하세요","stop을 입력하면 중단");
+		document.write("<h3>입력한 값 : " + str + "</h3><br>");
+		count++;
+	}while(str != "stop");
+	
+	document.write("반복  수 : " + str + "</h3><br>");
+	
+</script>
+</head>
+<body>
+	
+</body>
+</html>

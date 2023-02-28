@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex08</title>
+<script type="text/javascript">
+	function bg(){
+		alert(1);
+	}
+</script>
+</head>
+<body onLoad="alert('저의 홈페이지에 오신 것을 환영합니다.')">
+	<form>
+		<input type="button" value="버튼" onClick="alert('alert입니다.')">
+		
+		<input type="button" value="배경바꾸기1" onClick="bg()">
+		<input type="button" value="배경바꾸기2" onClick="bg()">
+	</form>
+</body>
+</html>

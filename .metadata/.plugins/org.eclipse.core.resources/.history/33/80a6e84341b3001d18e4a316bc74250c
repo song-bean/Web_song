@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>이미지, 색상, 글자 투명도 조정하기</title>
+		<meta charset="UTF-8" />
+		<style type="text/css">
+			div{
+				background: url(images/circle.png) no-repeat;
+				width: 530px;
+				height: 550px;
+				opacity: 0.5; /* 투명도 설정 */ 
+			}
+			
+			.textBox{
+				background-color: hsla(0,0%,30%,0.8));
+			}
+		</style>
+	</head>
+
+	<body>
+		<div>
+			<p class="textBox">
+					Freedom is not worth having
+					if it does not include the freedom to make mistakes.				
+			</p>
+			<p class="people">- Mahatma Gandhi - <p>
+		</div>
+	</body>
+</html>

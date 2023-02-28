@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex07</title>
+<script type="text/javascript">
+	var now = new Date();
+	document.write("now1 : " + now + "<br>");
+	document.write("now2 : " + now.toString() + "<br>");
+	document.write("now3 : " + now.toDateString() + "<br>");
+	document.write("now4 : " + now.toTimeString() + "<br>");
+	
+	document.write("오늘은");
+	document.write(now.getYear() + "오늘은");
+
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

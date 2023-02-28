@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex05</title>
+</head>
+<body>
+	<h1>네임앵커 이용하기</h1>
+	<hr>
+	
+	<ul>
+		<li><a href="">Toy1</a></li>
+		<li><a href="">Toy2</a></li>
+		<li><a href="">Toy3</a></li>
+	</ul>
+	<hr>
+	
+		<h3 id="Toy1">회전 동물 알파벳</h3>
+		<img src="images/toy1.jpg" width="200" height="500"
+		title="회전 동물 알파벳 장난감"
+		alt="회전 동물 알파벳 장난감 사진"> 
+	<hr>
+		<h3 id="Toy2">애벌레</h3>
+		<img src="images/toy2.jpg" width="500" height="300"
+		title="애벌레 장난감"
+		alt="애벌레 장난감 사진"> 
+	<hr>
+		<h3 id="Toy3">스스로 움직이는 공</h3>
+		<img src="images/toy3.jpg" width="300" height="500"
+		title="스스로 움직이는 공 장난감"
+		alt="스스로 움직이는 공 장난감 사진"> 
+	<hr>
+	
+	<h4>위로 이동하기</h4>
+	
+</body>
+</html>

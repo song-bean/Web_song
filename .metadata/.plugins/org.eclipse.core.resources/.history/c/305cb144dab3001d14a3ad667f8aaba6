@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex_position.html</title>
+<style type="text/css">
+
+	div{
+		width: 250px;
+		height: 250px;
+	}
+	.box1{
+		border: 1px solid red;
+		position: relative;
+		left: 20px
+		top: 30px;
+		left: 20px
+		top: 30px;
+	}
+	.box2{
+		border: 1px solid blue;
+		position: relative;
+	}
+	.box3{
+		border: 1px solid green;
+		position: relative;
+	}
+	
+</style>
+</head>
+<body>
+	<div class="box1"></div>
+	<div class="box2"></div>
+	<div class="box3"></div>
+</body>
+</html>

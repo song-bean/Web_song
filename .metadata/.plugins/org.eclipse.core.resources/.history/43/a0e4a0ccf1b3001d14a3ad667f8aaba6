@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex02</title>
+	<script type="text/javascript">
+		document.write(typeof('abc') + "<br>"); //String
+		document.write(typeof("xyz") + "<br>"); //String
+		document.write(typeof(123) + "<br>"); //number
+		document.write(typeof("123") + "<br>"); //String
+		document.write(typeof(1.23) + "<br>"); //number
+		document.write(typeof(true) + "<br>"); //boolean
+		document.write(3+1 + "<br>"); 
+		
+		
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex09</title>
+<script type="text/javascript">
+
+	var num = prompt("정수를 입력하세요", 20); //입력 부분에 자동으로 20이 쓰여짐
+	document.write("num : " + num + "<br>");
+	document.write(typeof(num) + "<br>"); // String
+	document.write(num + 3 + "<br>"); //203
+	
+	//문자열을 숫자로 바꾸기
+	document.write(Number(num) + 3 + "<br>"); //23
+	document.write(parseInt(num) + 3 + "<br>"); //23
+	document.write(+num + 3 + "<br>"); //23
+	document.write(eval(num) + 3 + "<br>"); //23
+	
+	
+</script>
+</head>
+<body>
+	
+</body>
+</html>

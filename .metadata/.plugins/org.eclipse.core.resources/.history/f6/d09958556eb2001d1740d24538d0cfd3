@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex10</title>
+</head>
+<body>
+	<table border="1" width="400" height="300"
+			align="center" cellspacing="0"
+			cellpadding="10"> 
+		<tr bgcolor="#1cdfef"> 
+			<td>가</td> 
+			<td>나</td>
+			<td>다</td>
+		</tr>
+		
+		<tr>
+			<td>라</td>
+			<td>마</td>
+			<td>바</td>		
+		</tr>
+	</table>
+</body>
+</html>

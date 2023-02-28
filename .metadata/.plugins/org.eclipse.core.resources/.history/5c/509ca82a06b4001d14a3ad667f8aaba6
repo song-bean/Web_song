@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex07</title>
+<script type="text/javascript">
+	function SumofTwo(a,b){
+		document.write(a + "," + b +"<br>");
+		
+		if(a == null) {
+			
+		}
+	}
+</script>
+</head>
+<body>
+	<h3>a와 b의 값을 선택하세요.</h3>
+	<form>
+		<input type="button" value="a=3, b=10" onClick="SumofTwo(3, 10)">
+		<input type="button" value="b=8" onClick="SumofTwo(null,8)">
+		<input type="button" value="a=8" onClick="SumofTwo(8)">
+	</form>
+	<br>
+	
+	<div id="result">
+		
+	</div>
+</body>
+</html>

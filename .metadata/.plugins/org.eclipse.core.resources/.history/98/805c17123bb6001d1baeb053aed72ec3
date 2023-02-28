@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ex05</title>
+<style type="text/css">
+	#result{
+		width : 250px;
+		height : 100px;
+		background-color: lightgreen;
+	}
+</style>
+<script type="text/javascript">
+	function nameAge(){
+		var nameage = prompt("이름과 나이를 입력하세요.", "아이유/30");
+		//document.write(nameage);
+		
+		myArea = document.getElementById("result");
+		myArea.innerHTML = nameage;
+	}
+</script>
+</head>
+<body>
+	이름과 나이를 입력하세요.<br>
+	<form>
+		<input type="button" value="버튼" onClick="nameAge()">
+	</form>
+	
+	<div id="result">
+		
+	</div>
+	
+</body>
+</html>
