@@ -17,12 +17,6 @@
 	}
 	document.write( "sum : " + sum + " ");
 	document.write("<br>");
-
-	
-	document.write("<a href ='https://www.naver.com/'>네이버</a>");
-	document.write("<br>");
-	
-	
 	
 </script>
 </head>
