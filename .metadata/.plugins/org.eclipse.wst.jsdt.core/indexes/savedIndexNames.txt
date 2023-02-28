@@ -8,6 +8,5 @@ INDEX VERSION 1.4+/Users/songnayoung/Web_song/.metadata/.plugins/org.eclipse.wst
 958983498.index
 3703194086.index
 3430601614.index
-3430601614.index
 70006457.index
 3133294147.index
